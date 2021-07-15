@@ -1,0 +1,31 @@
+깃 사용법
+
+사용 설정
+$git init 
+이름 이메일 등록
+$ git config --global user.name 이름
+$ git config --global user.email 이메일
+
+스테이터스에 올리기
+$ git add markdown.md # 특정 파일
+$ git add images/ # 특정 폴더
+$ git add . # 현재 디렉토리
+
+확인법
+$ git status
+
+깃에 추가하기
+$ git commit -m '넣고 싶은 메세지'
+
+확인법
+$ git log 
+
+외부 git 연결
+$ git remote add origin 도메인 주소
+
+확인법
+$ git remote -v
+
+외부 git 업로드
+
+$ git push origin master
