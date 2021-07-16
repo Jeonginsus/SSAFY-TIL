@@ -1,1 +1,4 @@
 Api 이용 방법 
+
+텔레그램 봇 추가법
+토큰: 1897928248:AAGwwpUsHoMFuL4Yl05nP6GUxkhBAJCP4Mw (insuchatbot)
