@@ -12,14 +12,13 @@ response = requests.get(update_url).json()
 
 chat_id = response.get('result')[0].get('message').get('chat').get('id')
 
-print(chat_id)
 ### 메시지를 보내보자..
 #필수 조건
 # 1. chat_id
 # 2. text
 
-# text = '승훈님 별다방 아메리카노 당첨!'
+text = '승훈님 별다방 아메리카노 당첨!'
 
-# message_url = f'{APP_URL}/sendMessage?chat_id={chat_id}&text={text}'
+message_url = f'{APP_URL}/sendMessage?chat_id={chat_id}&text={text}'
 
-# requests.get(message_url)
+requests.get(message_url)

@@ -1,4 +1,10 @@
 Api 이용 방법 
 
 텔레그램 봇 추가법
+
+1.telegram Botfather 추가
+2./new Bot ->봇이름->아이디 순으로 입력
+3.토큰 복사
+4.https://core.telegram.org/bots/api 에서 명령어확인
+5.https://api.telegram.org/bot{TOKEN}/명령어 사용하기
 토큰: 1897928248:AAGwwpUsHoMFuL4Yl05nP6GUxkhBAJCP4Mw (insuchatbot)
